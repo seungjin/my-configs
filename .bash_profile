@@ -1,9 +1,15 @@
 # my bash_profile
 
 # File: .bash_profile
-# Author: Seung-jin Kim <seungjin@email.arizona.edu>
+# Author: Seung-jin Kim <seungjin@seungjin.net>
 
-PS1='\h:\W\$ '
+export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+
+
+
+# hostname based on setting?
+
+
 
 #PATH=$HOME/opt/bin:$PATH
 PATH=/usr/bin:$PATH
@@ -27,8 +33,7 @@ PATH=$HOME/Applications/mysql-5.5.16-osx10.6-x86_64/bin:$PATH
 
 export PATH
 
-alias my_dev='ssh 150.135.78.195 -p 1657 -l seungjin'
-alias my_pro='ssh friday.iplantcollaborative.org -p 1657 -l seungjin'
+
 
 
 
@@ -46,7 +51,7 @@ function lls {
 
 
 
-export REPLYTO=seungjin@email.arizona.edu
+export REPLYTO=seungjin@seungjin.net
 
 
 CLOJURE_HOME=~/Applications/clojure-1.2.0
@@ -77,9 +82,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 #
 
-my_aws_ip="107.20.222.248"
-
-
 JAVA_TOOL_OPTIONS='-Dfile.encoding=UTF-8 -Dswank.encoding=UTF-8'
 export JAVA_TOOL_OPTIONS
 
@@ -92,7 +94,6 @@ export DYLD_LIBRARY_PATH=/Users/seungjin/Applications/mysql-5.5.16-osx10.6-x86_6
 
 
 
-export PS1="\e[0;34m[\u@\h \W]\$\e[m "
 
 
 
