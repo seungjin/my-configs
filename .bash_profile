@@ -3,9 +3,13 @@
 # File: .bash_profile
 # Author: Seung-jin Kim <seungjin@seungjin.net>
 
-export PS1="\e[0;34m[\u@\h \W]\$\e[m "
-
-
+hostname=`hostname`
+if [ [$hostname == "Cameo"] ] 
+then 
+	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+else
+	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+fi
 
 # hostname based on setting?
 
