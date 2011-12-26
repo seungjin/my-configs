@@ -5,15 +5,15 @@
 
 hostname=`hostname`
 if [ [$hostname == "Cameo"] ] ; then 
-	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+  export PS1="\e[0;34m[\u@\h \W]\$\e[m "
   export REPLYTO=sam.kim@nexr.com
 
 
 elif [ [$hostname == "gala"] ] ; then
-	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+  export PS1="\e[0;34m[\u@\h \W]\$\e[m "
   export REPLYTO=seungjin@seungjin.net 
 
-els
+else
 	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
 fi
 
