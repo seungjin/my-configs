@@ -4,14 +4,19 @@
 # Author: Seung-jin Kim <seungjin@seungjin.net>
 
 hostname=`hostname`
-if [ [$hostname == "Cameo"] ] 
-then 
+if [ [$hostname == "Cameo"] ] ; then 
 	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
-else
+  export REPLYTO=sam.kim@nexr.com
+
+
+elif [ [$hostname == "gala"] ] ; then
+	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+  export REPLYTO=seungjin@seungjin.net 
+
+els
 	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
 fi
 
-# hostname based on setting?
 
 
 
@@ -33,12 +38,7 @@ PATH=$HOME/Applications/node-v0.4.10/bin:$PATH
 # mysql
 PATH=$HOME/Applications/mysql-5.5.16-osx10.6-x86_64/bin:$PATH
 
-
-
 export PATH
-
-
-
 
 
 function ll {
