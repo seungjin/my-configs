@@ -14,7 +14,7 @@ elif [ [$hostname == "gala"] ] ; then
   export REPLYTO=seungjin@seungjin.net 
 
 else
-	export PS1="\e[0;34m[\u@\h \W]\$\e[m "
+  export PS1="\e[0;34m[\u@\h \W]\$\e[m "
 fi
 
 
