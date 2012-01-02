@@ -38,6 +38,10 @@ PATH=$HOME/Applications/node-v0.4.10/bin:$PATH
 # mysql
 PATH=$HOME/Applications/mysql-5.5.16-osx10.6-x86_64/bin:$PATH
 
+# google cloudsql
+PATH=/Applications/google_sql_tool:$PATH
+
+# heroku
 PATH=$HOME/Applications/heroku-client:$PATH
 
 export PATH
