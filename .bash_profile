@@ -69,7 +69,6 @@ export CLOJURE_HOME
 
 alias ssh='ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeychecking=no' $*
 
-alias hnoss='ssh root:62+56Ma/W+:L@hnoss.iplantcollaborative.org -l root -p 1657'
 
 ##
 # Your previous /Users/seungjin/.bash_profile file was backed up as /Users/seungjin/.bash_profile.macports-saved_2011-04-16_at_10:26:55
