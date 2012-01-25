@@ -113,3 +113,5 @@ if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
 fi
 
 
+
+alias ruby19='~/.rvm/bin/ruby-1.9.2-p290'
