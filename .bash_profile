@@ -108,9 +108,9 @@ export DYLD_LIBRARY_PATH=/Users/seungjin/Applications/mysql-5.5.16-osx10.6-x86_6
 
 
 # tmux starts! (if not already run)
-if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
-  /usr/local/bin/tmux
-fi
+#if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
+#  /usr/local/bin/tmux
+#fi
 
 
 
