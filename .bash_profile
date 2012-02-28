@@ -91,8 +91,8 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 #
 
-JAVA_TOOL_OPTIONS='-Dfile.encoding=UTF-8 -Dswank.encoding=UTF-8'
-export JAVA_TOOL_OPTIONS
+#JAVA_TOOL_OPTIONS='-Dfile.encoding=UTF-8 -Dswank.encoding=UTF-8'
+#export JAVA_TOOL_OPTIONS
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
 
@@ -115,3 +115,5 @@ export DYLD_LIBRARY_PATH=/Users/seungjin/Applications/mysql-5.5.16-osx10.6-x86_6
 
 
 alias ruby19='~/.rvm/bin/ruby-1.9.2-p290'
+
+[[ -s "/Users/seungjin/.rvm/scripts/rvm" ]] && source "/Users/seungjin/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
